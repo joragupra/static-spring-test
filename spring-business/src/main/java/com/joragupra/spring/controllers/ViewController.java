@@ -1,5 +1,6 @@
 package com.joragupra.spring.controllers;
 
+import com.joragupra.spring.services.AbstractFactory;
 import com.joragupra.spring.services.BusinessService;
 
 public class ViewController {
@@ -15,6 +16,7 @@ public class ViewController {
 
 	public void setBusinessService(BusinessService businessService) {
 		System.out.println("Injecting business service dependency...");
+		AbstractFactory.createConcreteFactory();
 		this.businessService = businessService;
 	}
 }

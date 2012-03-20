@@ -4,6 +4,7 @@ public class BusinessService {
 
 	public BusinessService() {
 		System.out.println("Creating service instance...");
+		AbstractFactory.setService(this);
 	}
 
 	public void serviceOp() {
