@@ -13,7 +13,6 @@
 	<groupId>com.joragupra.spring</groupId>
 	<artifactId>spring-business</artifactId>
 	<name>spring-business</name>
-	<url>http://maven.apache.org</url>
 
 	<dependencies>
 		<dependency>
